@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import display from "./display";
+import Point from "./Point";
 
 // place your code on line 5 above the export statement below
 
