@@ -56,35 +56,4 @@ class Snake {
   }
 }
 
-class Point {
-  private xcoord: number;
-  private ycoord: number;
-  constructor(x: number, y: number) {
-    this.xcoord = x;
-    this.ycoord = y;
-  }
-
-  public get x() {
-    return this.xcoord;
-  }
-
-  public get y() {
-    return this.ycoord;
-  }
-}
-
-class WorldModel {
-  private snake: Snake;
-  constructor(snake: Snake) {
-    this.snake = snake;
-  }
-
-  update(steps: number) {
-    this.snake.move(steps);
-  }
-  public get Snake() {
-    return this.snake;
-  }
-}
-
 export default Snake;
